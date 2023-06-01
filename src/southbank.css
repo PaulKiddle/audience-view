@@ -2563,7 +2563,7 @@ template {
 .search-box form input[type=submit]:focus,
 .search-results-container .results-box .btn:focus {
   box-shadow: 0 0 0 4px #ff22c9 !important;
-  outline: 0 !important
+  outline: 0 !important;
 }
 
 .search-results-container .results-box .btn:focus :after {
@@ -2834,7 +2834,7 @@ summary {
 *,
 :after,
 :before {
-  box-sizing: inherit
+  box-sizing: inherit;
 }
 
 a:not([class]) {
@@ -2886,7 +2886,7 @@ ul li:not([class]) {
 
 svg {
   fill: currentColor;
-  stroke: currentColor
+  stroke: currentColor;
 }
 
 :root {
@@ -6498,7 +6498,7 @@ a:not(.btn):hover {
   input.btn-primary,
   input.btn-secondary {
     width: auto;
-    left: -2px
+    left: -2px;
   }
 
   .search-results-container .results-box .result-box-item {
@@ -8834,7 +8834,7 @@ a:not(.btn):hover {
   border: none !important;
   border-top: none !important;
   background-color: #310f7a;
-  padding: 0 !important
+  padding: 0 !important;
 }
 
 #widget-lastmonth a,

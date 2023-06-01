@@ -9100,6 +9100,7 @@ a:not(.btn):hover {
 .calendar-container .calendar-week .calendar-day .calendar-date-button.btn::after {
   background-color: transparent
 }
+
 .calendar-container .calendar-week .calendar-day .calendar-date-button.btn:focus,
 .calendar-container .calendar-week .calendar-day .calendar-date-button.btn:hover {
   background-color: #783df6;
