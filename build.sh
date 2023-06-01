@@ -1,6 +1,6 @@
-# Copy the southbank CSS file to the output dir twice
+# Copy the southbank CSS file to the output dir and remove the imax file
 cp src/southbank.css lib/southbank.css
-cp src/southbank.css lib/imax.css
+rm lib/imax.css
 
-# Apply the imax differences
-patch -u lib/imax.css -i src/imax.patch
+# Apply the imax differences and output to a new file
+patch -u lib/southbank.css -i src/imax.patch -o lib/imax.css
